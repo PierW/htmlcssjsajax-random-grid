@@ -21,7 +21,7 @@ function myJoke() {
 
   $.ajax({
     url: "https://www.boolean.careers/api/random/int",
-    methos: "GET",
+    method: "GET",
     success: function (dati, stato) {
       if (dati.success && value == "") {
         me.text(dati.response);
